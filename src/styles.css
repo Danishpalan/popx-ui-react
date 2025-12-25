@@ -2,7 +2,7 @@ body {
   margin: 0;
   background: #f2f2f2;
   height: 100vh;
-  overflow: hidden; /* 🔥 THIS REMOVES SCROLL */
+  overflow: hidden;
 
   display: flex;
   justify-content: center;
@@ -12,7 +12,7 @@ body {
 .app-frame {
   background: #ffffff;
   width: 380px;
-  height: 95vh; /* 🔥 FITS SCREEN */
+  height: 95vh; 
 
   border-radius: 18px;
   border: 1px solid #e6e6e6;
@@ -24,7 +24,7 @@ body {
   display: flex;
   justify-content: center;
 
-  overflow: hidden; /* 🔥 VERY IMPORTANT */
+  overflow: hidden;
 }
 
 
